@@ -1,21 +1,14 @@
-const genericXHR = require('./departments');
-const printToDom = require('./dom');
+let departments = [];
 
-let departmentsArray = [];
+const getDepartments = () => {
+  return departments;
+};
 
-function loadFunction () {
-  departmentsArray = JSON.parse(this.responseText).departments;
-  printToDom(departmentsArray);
-}
-
-function errorFunction () {
-  console.error('Something broke');
-}
-
-const initializer = () => {
-  genericXHR(loadFunction, errorFunction);
+const setDepartments = departmentsArray => {
+  departments = departmentsArray;
 };
 
 module.exports = {
-  initializer,
+  getDepartments,
+  setDepartments,
 };
