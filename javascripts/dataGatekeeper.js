@@ -1,11 +1,11 @@
 const genericXHR = require('./departments');
-const printToDom = require('./dom');
+const printToDepartmentDom = require('./departmentDom');
 
 let departmentsArray = [];
 
 function loadFunction () {
   departmentsArray = JSON.parse(this.responseText).departments;
-  printToDom(departmentsArray);
+  printToDepartmentDom(departmentsArray);
 }
 
 function errorFunction () {

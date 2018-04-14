@@ -12,11 +12,11 @@ const buildDomString = (input) => {
   return output;
 };
 
-const printToDom = (departmentsArray) => {
+const printToDepartmentDom = (departmentsArray) => {
   const domString = buildDomString(departmentsArray);
   const divHolder = document.getElementById('departments');
   divHolder.innerHTML = domString;
   events.addDepartmentEvents();
 };
 
-module.exports = printToDom;
+module.exports = printToDepartmentDom;
