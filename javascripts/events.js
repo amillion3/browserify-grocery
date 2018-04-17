@@ -22,7 +22,6 @@ const showItems = e => {
   const departmentId = e.target.parentNode.children[0].dataset.departmentId;
   const selectedItems = data.getItemsByDepartment(departmentId);
   departmentContainerDiv.innerHTML = '';
-  console.log('selected items ',selectedItems);
   itemsDom(selectedItems);
 };
 

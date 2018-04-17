@@ -14,7 +14,6 @@ function loadFunction () {
 function loadItems () {
   const itemsArray = JSON.parse(this.responseText).items;
   data.setItems(itemsArray); // setter function
-  console.log(itemsArray);
 }
 
 function errorFunction () {
