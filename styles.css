@@ -22,3 +22,12 @@ img {
 .department {
   margin: 15px 0 15px 0;
 }
+
+.item .panel {
+  height: 200px;
+}
+
+.item-image {
+  height: 100px;
+  width: 100px;
+}
