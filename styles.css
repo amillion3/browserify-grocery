@@ -1,16 +1,31 @@
 body {
   background-color: azure;
 }
-
 img {
   width: 100%;
   height: 250px;
 }
-
-.grey-out {
-  opacity: 0.4;
+h1 {
+  font-size: 48px;
 }
-
+h1, h2, h3 {
+  font-family: 'Black Han Sans', sans-serif;
+}
+h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h3 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+h3 span {
+   background:azure;
+   padding:0 10px;
+}
+/* DEPARTMENTS */
 .department-title {
   color: black;
   position: absolute;
@@ -18,15 +33,31 @@ img {
   left: 50px;
   font-size: 36px;
 }
-
 .department {
   margin: 15px 0 15px 0;
 }
-
-.item .panel {
-  height: 200px;
+.department:before {
+  content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 250px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	transition: all 1s ease;
+}
+.department:hover:before {
+  width: 100%;
 }
 
+/* ITEMS */
+.panel:hover {
+  border-bottom: 10px solid #377bb5;
+}
+.item .panel {
+  height: 250px;
+}
 .item-image {
   height: 100px;
   width: 100px;
