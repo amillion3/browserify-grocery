@@ -5,7 +5,7 @@ const buildDomString = (input) => {
   for (let i = 0; i < input.length; i++) {
     output += `
       <div class="col-sm-3 department">
-        <h3 class="department-title hide" data-department-id="${input[i].id}">${input[i].name}</h3>
+        <h4 class="department-title hide" data-department-id="${input[i].id}">${input[i].name}</h4>
         <img class="department-image" src="${input[i].img}">
       </div>`;
   }
