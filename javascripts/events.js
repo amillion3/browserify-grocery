@@ -24,7 +24,6 @@ const showItems = e => {
   departmentContainerDiv.innerHTML = '';
   console.log('selected items ',selectedItems);
   itemsDom(selectedItems);
-  // TODO filter items by departmentId
 };
 
 const addDepartmentEvents = () => {
