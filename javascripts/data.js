@@ -38,6 +38,10 @@ const setCart = (itemId, numberToAdd) => {
   console.log(cart);
 };
 
+const getCart = () => {
+  return cart;
+};
+
 module.exports = {
   getDepartments,
   setDepartments,
@@ -45,4 +49,5 @@ module.exports = {
   setItems,
   getItemsByDepartment,
   setCart,
+  getCart,
 };

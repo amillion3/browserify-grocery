@@ -25,6 +25,10 @@ h3 span {
    background:azure;
    padding:0 10px;
 }
+#go-to-cart,
+#go-to-departments {
+  margin: 10px 10px 15px 10px;
+}
 .grey-out {
   opacity: 0.4;
 }
@@ -48,7 +52,7 @@ h3 span {
 	height: 250px;
 	background: rgba(255,255,255,0.5);
 	border-radius: 5px;
-	transition: all 1s ease;
+	transition: all .8s ease;
 }
 .department:hover:before {
   width: 100%;
@@ -65,3 +69,10 @@ h3 span {
   height: 100px;
   width: 100px;
 }
+.item-add {
+  margin: 8px 8px;
+}
+
+/* input {
+  width: 50px;
+} */
