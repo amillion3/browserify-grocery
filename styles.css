@@ -25,6 +25,9 @@ h3 span {
    background:azure;
    padding:0 10px;
 }
+.grey-out {
+  opacity: 0.4;
+}
 /* DEPARTMENTS */
 .department-title {
   color: black;
