@@ -50,4 +50,9 @@ const printCartToDom = () => {
   cartOutputDiv.innerHTML = cartDomString(cartItems);
 };
 
+// delete button _-_-_-_-_-_
+// remove item from cart array -- deleteCartItem(itemIdToDelete)  -- data attribute?
+// in data.js, find the matching position, splice it
+// then reload cart page  --
+
 module.exports = printCartToDom;
