@@ -11,20 +11,26 @@ This app is a fictional grocery store app. The user is able to browse for differ
 - Node.JS/Browserify/Grunt
 
 ## Screenshots
-Text here
+Page upon load
 
-![alt text](URL)
+![Page upon load](https://raw.githubusercontent.com/amillion3/browserify-grocery/master/screenshots/on-load.png)
 ___
 
-Text here
+When hovering over a department, the image turns slightly opaque and the department name is displayed.
 
-![alt text](URL)
+![Selecting a department](https://raw.githubusercontent.com/amillion3/browserify-grocery/master/screenshots/hover-departments.png)
 ___
 
-Text here
+These are some sample items for sale. The item on the right is being hovered over, denoted by the blue border at the bottom.
 
-![alt text](URL)
+![Items for sale](https://raw.githubusercontent.com/amillion3/browserify-grocery/master/screenshots/hover-item.png)
 ___
+
+Here is the shopping cart showing a summary of items added by the user. Users can also remove items from this page.
+
+![Shopping cart](https://raw.githubusercontent.com/amillion3/browserify-grocery/master/screenshots/shopping-cart.png)
+___
+
 ## Running The Project
 1. Clone down this repo and CD into project.
 2. Install the [http-server](https://www.npmjs.com/package/http-server) plugin via [npm](https://www.npmjs.com/).
